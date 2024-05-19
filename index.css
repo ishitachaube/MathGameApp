@@ -11,7 +11,7 @@ body{
     box-shadow: 4px 7px rgb(165, 137, 137);
 
 }
-.restart{
+#restart{
     font-size:medium;
 }
 .score{

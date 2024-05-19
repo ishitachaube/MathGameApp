@@ -11,6 +11,9 @@ body{
     box-shadow: 4px 7px rgb(165, 137, 137);
 
 }
+.restart{
+    font-size:medium;
+}
 .score{
     background-color: aqua;
     height: 20px;

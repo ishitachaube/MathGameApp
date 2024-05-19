@@ -5,7 +5,7 @@ let score, timeremaining=30,action,wrongans, correctAns;
 
     if(playing==true){
         document.getElementById("gameover").innerHTML= 
-                `<p>GAMEOVER !!!</p><br> <p>Your Score is ${score}</p><br><p id="restart">Will restart in 3 seconds</p>`;
+                `<p>GAMEOVER !!!</p><br> <p>Your Score is ${score}</p><br><p style="font-size: medium;">Will restart in 3 seconds</p>`;
                 hide("time");
                 hide("start")
         show("gameover");
@@ -43,7 +43,7 @@ function showcountdown()
                 stopcounter();
                 show("gameover");
                 document.getElementById("gameover").innerHTML= 
-                `<p>GAMEOVER !!!</p><br> <p>Your Score is ${score}</p><br><p id="restart">Will restart in 3 seconds</p>`;
+                `<p>GAMEOVER !!!</p><br> <p>Your Score is ${score}</p><br><p style="font-size: medium;">Will restart in 3 seconds</p>`;
                 hide("time");
                 playing=false;
                 document.getElementById("start").innerHTML="Reset";
